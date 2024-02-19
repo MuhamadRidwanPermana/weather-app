@@ -1,6 +1,6 @@
 {
   "name": "Weather Application",
-  "short_name": "Weather Application",
+  "short_name": "Weather App",
   "description": "A Simple Weather Application",
   "icons": [{
       "src": "/icon.png",
@@ -14,7 +14,7 @@
   ],
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#1F3641",
+  "theme_color": "#1e1e1e",
   "background_color": "#ffffff",
   "prefer_related_applications": false
 }
