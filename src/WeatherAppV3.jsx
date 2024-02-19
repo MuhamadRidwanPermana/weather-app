@@ -1,6 +1,20 @@
 import React, { useState } from "react";
 
-import { BrokenCloud, CloudNight, Cloud, DrizzleNight, Drizzle, FewCloud, Mist, Moon, Sun, Rain, Snow, Snowfall, Thunderstrom } from "./utils/icons";
+import {
+  BrokenCloud,
+  CloudNight,
+  Cloud,
+  DrizzleNight,
+  Drizzle,
+  FewCloud,
+  Mist,
+  Moon,
+  Sun,
+  Rain,
+  Snow,
+  Snowfall,
+  Thunderstrom,
+} from "./utils/icons";
 
 export default function WeatherApp() {
   const API = {
@@ -37,187 +51,187 @@ export default function WeatherApp() {
     switch (icon) {
       // Cerah
       case "//cdn.weatherapi.com/weather/64x64/day/113.png":
-        return Sun
+        return Sun;
       case "//cdn.weatherapi.com/weather/64x64/night/113.png":
-        return Moon
+        return Moon;
       // Teduh
       case "//cdn.weatherapi.com/weather/64x64/day/116.png":
-        return FewCloud
+        return FewCloud;
       case "//cdn.weatherapi.com/weather/64x64/night/116.png":
-        return CloudNight
+        return CloudNight;
       // Awan
       case "//cdn.weatherapi.com/weather/64x64/day/119.png":
-        return Cloud
+        return Cloud;
       case "//cdn.weatherapi.com/weather/64x64/night/119.png":
-        return CloudNight
+        return CloudNight;
       case "//cdn.weatherapi.com/weather/64x64/day/122.png":
-        return Cloud
+        return Cloud;
       case "//cdn.weatherapi.com/weather/64x64/night/122.png":
-        return CloudNight
+        return CloudNight;
       // Kabut
       case "//cdn.weatherapi.com/weather/64x64/day/143.png":
-        return BrokenCloud
+        return BrokenCloud;
       case "//cdn.weatherapi.com/weather/64x64/night/143.png":
-        return BrokenCloud
+        return BrokenCloud;
       case "//cdn.weatherapi.com/weather/64x64/day/248.png":
-        return Mist
+        return Mist;
       case "//cdn.weatherapi.com/weather/64x64/night/248.png":
-        return Mist
+        return Mist;
       case "//cdn.weatherapi.com/weather/64x64/day/260.png":
-        return Mist
+        return Mist;
       case "//cdn.weatherapi.com/weather/64x64/night/260.png":
-        return Mist
+        return Mist;
       // Hujan Cerah
       case "//cdn.weatherapi.com/weather/64x64/day/176.png":
-        return Drizzle
+        return Drizzle;
       case "//cdn.weatherapi.com/weather/64x64/day/293.png":
-        return Drizzle
+        return Drizzle;
       case "//cdn.weatherapi.com/weather/64x64/day/305.png":
-        return Drizzle
+        return Drizzle;
       case "//cdn.weatherapi.com/weather/64x64/day/353.png":
-        return Drizzle
+        return Drizzle;
       case "//cdn.weatherapi.com/weather/64x64/day/356.png":
-        return Drizzle
+        return Drizzle;
       case "//cdn.weatherapi.com/weather/64x64/night/176.png":
-        return DrizzleNight
+        return DrizzleNight;
       case "//cdn.weatherapi.com/weather/64x64/night/293.png":
-        return DrizzleNight
+        return DrizzleNight;
       case "//cdn.weatherapi.com/weather/64x64/night/305.png":
-        return DrizzleNight
+        return DrizzleNight;
       case "//cdn.weatherapi.com/weather/64x64/night/353.png":
-        return DrizzleNight
+        return DrizzleNight;
       case "//cdn.weatherapi.com/weather/64x64/night/356.png":
-        return DrizzleNight
+        return DrizzleNight;
       // Hujan Kecil
       case "//cdn.weatherapi.com/weather/64x64/day/263.png":
-        return Rain
+        return Rain;
       case "//cdn.weatherapi.com/weather/64x64/day/266.png":
-        return Rain
+        return Rain;
       case "//cdn.weatherapi.com/weather/64x64/day/296.png":
-        return Rain
+        return Rain;
       case "//cdn.weatherapi.com/weather/64x64/day/302.png":
-        return Rain
+        return Rain;
       case "//cdn.weatherapi.com/weather/64x64/day/308.png":
-        return Rain
+        return Rain;
       case "//cdn.weatherapi.com/weather/64x64/night/263.png":
-        return Rain
+        return Rain;
       case "//cdn.weatherapi.com/weather/64x64/night/266.png":
-        return Rain
+        return Rain;
       case "//cdn.weatherapi.com/weather/64x64/night/296.png":
-        return Rain
+        return Rain;
       case "//cdn.weatherapi.com/weather/64x64/night/302.png":
-        return Rain
+        return Rain;
       case "//cdn.weatherapi.com/weather/64x64/night/308.png":
-        return Rain
+        return Rain;
       // Hujan Besar
       case "//cdn.weatherapi.com/weather/64x64/day/200.png":
-        return Thunderstrom
+        return Thunderstrom;
       case "//cdn.weatherapi.com/weather/64x64/day/389.png":
-        return Thunderstrom
+        return Thunderstrom;
       case "//cdn.weatherapi.com/weather/64x64/night/200.png":
-        return Thunderstrom
+        return Thunderstrom;
       case "//cdn.weatherapi.com/weather/64x64/night/389.png":
-        return Thunderstrom
+        return Thunderstrom;
       // Hujan Salju
       case "//cdn.weatherapi.com/weather/64x64/day/185.png":
-        return Snowfall
+        return Snowfall;
       case "//cdn.weatherapi.com/weather/64x64/day/281.png":
-        return Snowfall
+        return Snowfall;
       case "//cdn.weatherapi.com/weather/64x64/day/284.png":
-        return Snowfall
+        return Snowfall;
       case "//cdn.weatherapi.com/weather/64x64/day/311.png":
-        return Snowfall
+        return Snowfall;
       case "//cdn.weatherapi.com/weather/64x64/day/314.png":
-        return Snowfall
+        return Snowfall;
       case "//cdn.weatherapi.com/weather/64x64/day/317.png":
-        return Snowfall
+        return Snowfall;
       case "//cdn.weatherapi.com/weather/64x64/day/320.png":
-        return Snowfall
+        return Snowfall;
       case "//cdn.weatherapi.com/weather/64x64/night/185.png":
-        return Snowfall
+        return Snowfall;
       case "//cdn.weatherapi.com/weather/64x64/night/281.png":
-        return Snowfall
+        return Snowfall;
       case "//cdn.weatherapi.com/weather/64x64/night/284.png":
-        return Snowfall
+        return Snowfall;
       case "//cdn.weatherapi.com/weather/64x64/night/311.png":
-        return Snowfall
+        return Snowfall;
       case "//cdn.weatherapi.com/weather/64x64/night/314.png":
-        return Snowfall
+        return Snowfall;
       case "//cdn.weatherapi.com/weather/64x64/night/317.png":
-        return Snowfall
+        return Snowfall;
       case "//cdn.weatherapi.com/weather/64x64/night/320.png":
-        return Snowfall
+        return Snowfall;
       // Salju
       case "//cdn.weatherapi.com/weather/64x64/day/179.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/182.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/227.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/230.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/323.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/326.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/329.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/332.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/335.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/338.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/350.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/368.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/362.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/365.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/371.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/374.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/day/377.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/179.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/182.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/227.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/230.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/323.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/326.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/329.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/332.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/335.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/338.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/350.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/368.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/362.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/365.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/371.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/374.png":
-        return Snow
+        return Snow;
       case "//cdn.weatherapi.com/weather/64x64/night/377.png":
-        return Snow
+        return Snow;
       default:
-        return Sun
+        return Sun;
     }
   };
 
@@ -262,11 +276,7 @@ export default function WeatherApp() {
           <div className="border-2 rounded-3xl border-gray-400 m-1 h-full">
             <div className="flex justify-center my-5 py-5">
               <img
-                src={
-                  weather.current
-                    ? weather.current.condition.icon
-                    : "src/assets/images/sun.png"
-                }
+                src={weather.current ? weather.current.condition.icon : Sun}
                 id="weather-icon"
                 alt="weather icon"
                 className="w-[150px]"
@@ -297,15 +307,19 @@ export default function WeatherApp() {
 
           <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 mx-1 my-5 py-1">
             <div className="flex justify-center border-2 border-gray-400 rounded-xl p-5">
-              <img
-                src="src/assets/images/sun.png"
-                className="lg:w-9 w-9 h-auto"
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                className="bi bi-brightness-high lg:w-8 w-9 h-auto text-gray-700"
+                viewBox="0 0 16 16"
+              >
+                <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708" />
+              </svg>
               <div className="lg:mx-3 md:mx-1 mx-5 text-start">
-                <h3 className="text-base lg:text-sm font-medium text-gray-700">
+                <h3 className="text-base lg:text-sm font-medium text-gray-600">
                   Day
                 </h3>
-                <h4 className="text-xs font-normal text-gray-800">Condition</h4>
+                <h4 className="text-xs font-normal text-gray-700">Condition</h4>
               </div>
             </div>
             <div className="flex justify-center border-2 border-gray-400 rounded-xl p-5">
@@ -381,7 +395,6 @@ export default function WeatherApp() {
     console.log(weather);
   }
 
-
   return (
     <>
       {typeof weather.current !== "undefined" ? (
@@ -419,7 +432,8 @@ export default function WeatherApp() {
                     {weather?.location ? weather?.location?.name : ""}
                   </h1>
                 </div>
-                <div className="mb-3 grid grid-cols-1 lg:flex lg:justify-center md:flex md:justify-center">
+                {/* <div className="mb-3 grid grid-cols-2 lg:flex lg:justify-center md:flex md:justify-center"> */}
+                <div className="mb-3 flex justify-center">
                   <h2 id="country" className="lg:text-xl text-gray-500">
                     {weather?.location
                       ? weather?.location?.region + " - "
@@ -446,13 +460,13 @@ export default function WeatherApp() {
                   <div className="text-center mb-5 pb-1">
                     <h1
                       id="temp"
-                      className="text-4xl my-3 font-semibold text-gray-700"
+                      className="lg:text-4xl text-3xl my-3 font-semibold text-gray-700"
                     >
                       {weather.current ? weather.current.temp_c : ""} °C
                     </h1>
                     <h2
                       id="weather-name"
-                      className="text-3xl my-3 font-semibold text-gray-700 capitalize"
+                      className="lg:text-3xl text-2xl my-3 font-semibold text-gray-700 capitalize"
                     >
                       {weather.current ? weather.current.condition.text : ""}
                     </h2>
@@ -585,7 +599,7 @@ export default function WeatherApp() {
                     {weather?.location ? weather?.location?.name : ""}
                   </h1>
                 </div>
-                <div className="mb-3 grid grid-cols-1 lg:flex lg:justify-center md:flex md:justify-center">
+                <div className="mb-3 flex justify-center">
                   <h2 id="country" className="lg:text-xl text-gray-400">
                     {weather?.location
                       ? weather?.location?.region + " - "
@@ -612,13 +626,13 @@ export default function WeatherApp() {
                   <div className="text-center mb-5 pb-1">
                     <h1
                       id="temp"
-                      className="text-4xl my-3 font-semibold text-gray-400"
+                      className="lg:text-4xl text-3xl my-3 font-semibold text-gray-400"
                     >
                       {weather.current ? weather.current.temp_c : ""} °C
                     </h1>
                     <h2
                       id="weather-name"
-                      className="text-3xl my-3 font-semibold text-gray-400 capitalize"
+                      className="lg:text-3xl text-2xl my-3 font-semibold text-gray-400 capitalize"
                     >
                       {weather.current ? weather.current.condition.text : ""}
                     </h2>
