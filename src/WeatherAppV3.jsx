@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export default function WeatherApp() {
   const API = {
     key: "3f65a8c441e441298d3103853241602",
-    base: "http://api.weatherapi.com/v1",
+    base: "https://api.weatherapi.com/v1",
   };
 
   const [search, setSearch] = useState("");
